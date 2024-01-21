@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
+import { FiMenu } from "react-icons/fi";
+import { RxCross2 } from "react-icons/rx";
 import './Navbar.css';
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -25,9 +27,9 @@ const Navbar = () => {
                 <Link to='/' className='navbar-logo'>
                     TRVL<i className='fab fa-typo3'></i>
                 </Link>
-                <div className='menu-icons' onClick={handleClick}>
-                    <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
-                </div>
+                {/* <div className='menu-icons' onClick={handleClick}>
+                 {click ? <RxCross2 /> : <FiMenu />}
+                  </div> */}
                 <ul className={click ? 'nav-menu active' : 'nav-menu'} >
                     <li className='nav-item'>
                         <Link to='/' className='nav-links' onClick={closeMobileMenu}>
@@ -45,7 +47,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/SignUp' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/Sign-up' className='nav-links' onClick={closeMobileMenu}>
                             Sign Up
                         </Link>
                     </li>

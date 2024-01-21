@@ -3,9 +3,9 @@
     background: #fff;
   }
   
-  h1 {
+  h2 {
     text-align: center;
-    z-index: 1;
+    z-index: 16;
   }
   
   .cards-container {

@@ -17,28 +17,28 @@
 }
 
 .services {
-  /* background-image: url('/images/img-2.jpg'); */
+  background-image: url('../src/Components/images/img-1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #242424;
   font-size: 100px;
 }
 
 .products {
-  /* background-image: url('/images/img-1.jpg'); */
+  background-image: url('../src/Components/images/img-2.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #242424;
   font-size: 100px;
 }
 
 .sign-up {
-  /* background-image: url('/images/img-8.jpg'); */
+  background-image: url('../src/Components/images/img-3.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #242424;
   font-size: 100px;
 }
